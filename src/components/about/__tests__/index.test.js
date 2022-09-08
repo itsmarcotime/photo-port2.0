@@ -17,7 +17,7 @@ describe('About component', () => {
         //render about
         const { asFragment } = render(<About />);
         expect(asFragment()).toMatchSnapshot();
-    })
+    });
 
 });
 
